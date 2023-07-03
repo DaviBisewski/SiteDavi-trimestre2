@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+:root{
+    --cor-principal:#056CF2;
+    --cor-texto-principal: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color:var(--cor-principal);
+    color: var(--cor-texto-principal);
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    background-color:var(--cor-principal);
+    color: var(--cor-texto-principal);
+}
+
+
+
