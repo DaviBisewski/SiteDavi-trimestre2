@@ -2,21 +2,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
-:root{
-    --cor-principal:#056CF2;
+:root {
+    --cor-principal: #0554F2;
     --cor-texto-principal: #f2f2f2;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color:var(--cor-principal);
+body {
+    background-color: var(--cor-principal);
     color: var(--cor-texto-principal);
 }
-a{
+
+a {
     font-family: 'Montserrat', sans-serif;
-    background-color:var(--cor-principal);
+    background-color: var(--cor-principal);
     color: var(--cor-texto-principal);
 }
-
-
-
+header {
+    background-color: #313640;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #313640;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    
+  }
+  
+  .featured {
+    background-color: #5C8EF2;
+    padding: 20px;
+  }
+  
+  .featured h2 {
+    margin-top: 0;
+  }
+  
+  .news h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #5C8EF2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
