@@ -34,13 +34,15 @@ header {
   
   nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 100px;
+    
   }
   
   nav ul li a {
     color: #fff;
     text-decoration: none;
     background-color: #313640;
+    
   }
   
   main {
@@ -65,9 +67,42 @@ header {
   }
   
   footer {
-    background-color: #5C8EF2;
+    background-color: #313640;
     color: #fff;
     padding: 20px;
     text-align: center;
   }
+  nav:hover{
+    font-size: 105%;
+  }
+.news a:hover{
+  font-size: 110%;
+ color: #313640;
+}
+header img{
+ width: 300px;
+ height: 150px;
+ margin-left: 200px;
+}
+.img-container {
+ max-width:1800px;
+ text-align: center;
+ display: inline-block;
+
+}
+a img:hover{
+  transform: scale(1.05);
+}
+a img{
+  width: 600px;
+  height: 500px;
+}
+aside {
+  background-color: #5C8EF2;
+  padding: 20px;
+}
+.extra-news {
+  background-color: #5C8EF2;
+  padding: 20px;
+}   
   

@@ -1,55 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="shortcut icon" href="imagens/CheerfulAntiqueDassie-max-1mb.gif" type="image/x-icon">
-        <title>Games World</title>
-    </head></head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="imagens/CheerfulAntiqueDassie-max-1mb.gif" type="image/x-icon">
+  <script src="global.js/carrosel.js" defer></script>
+  <title>Games World</title>
+</head>
+</head>
+
 <body>
   <header>
-    <h1>Games World</h1>
+    <div class="img-container">
+    <img src="imagens/inpixio-removebg-image.png" alt="logo" width="400" height="400">
+    </div>
+    <div>
     <nav>
-      <ul>
+      <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="e-sports.html">E-Sports</a></li>
         <li><a href="games.html">Lançamentos</a></li>
         <li><a href="recomendo.html">Recomendações</a></li>
       </ul>
+    </div>
     </nav>
   </header>
   <main>
-    <div class="featured">
-      <h2>Notícia em Destaque</h2>
-      <div>
+    <section>
+      <article>
+      <div class="featured">
+        <h2>Notícias em Destaque</h2>
+        <div>
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="text2">Saiba de tudo dos E-Sports no momento</div>
+              <br>
+              <a href="e-sports.html">
+                <img
+                  src="imagens/esportes.webp" style="width:70%">
+              </a> 
+              <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="text2">Saiba de todos os lançamentos do ano de 2023</div>
+              <br>
+              <a href="games.html">
+                <img
+                  src="imagens/lançamentos.jpg" style="width:70%">
+              </a> 
+              <div class="text2"></div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="text">Aqui mostramos uma lista de recomendações de games para você viciar</div>
+              <br>
+              <a href="recomendo.html">
+                <img
+                  src="imagens/Best_Video_Games_of_All_Time.jpg" style="width:70%">
+              </a> 
+              <div class="text"></div>
+            </div>
+          </article>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+    </section>
+
+    <section>
+      <article class="news">
+        <h2>Acompanhe o mundo dos games</h2>
+        <article>
+          <h3>Tudo dos Esportes eletrônicos no momento</h3>
+
+          <a href="e-sports.html">Leia mais</a>
+        </article>
+        <article>
+          <h3>Lançamentos que fizeram e vão fazer sucesso entre os gamers</h3>
+
+          <a href="games.html">Leia mais</a>
+        </article>
+        <article>
+          <h3>Recomendações de jogos feitas pelos nossos gamers profissionais</h3>
+
+          <a href="recomendo.html">Leia mais</a>
+        </article>
+    </section>
+    <aside class="aside-news">
+      <h2>Notícia Lateral</h2>
+      <article>
         <h3>Título da Notícia</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis pharetra neque.</p>
         <a href="#">Leia mais</a>
-      </div>
+      </article>
+    </aside>
+    <div class="extra-news">
+      <h2>Outra Notícia</h2>
+      <article>
+        <h3>Título da Notícia</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis pharetra neque.</p>
+        <a href="#">Leia mais</a>
+      </article>
     </div>
 
-    <div class="news">
-      <h2>Outras Notícias</h2>
-      <div>
-        <h3>Título da Notícia</h3>
-        
-        <a href="#">Leia mais</a>
-      </div>
-      <div>
-        <h3>Título da Notícia</h3>
-        
-        <a href="#">Leia mais</a>
-      </div>
-      <div>
-        <h3>Título da Notícia</h3>
-      
-        <a href="#">Leia mais</a>
-      </div>
-    </section>
   </main>
 
   <footer>
     <p>&copy; 2023. Todos os direitos reservados.</p>
   </footer>
 </body>
+
 </html>
