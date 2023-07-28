@@ -21,6 +21,7 @@ a {
 header {
     background-color: #313640;
     padding: 20px;
+    border-radius: 10px;
   }
   
   header h1 {
@@ -42,6 +43,7 @@ header {
     color: #fff;
     text-decoration: none;
     background-color: #313640;
+     margin-right: 50px ;
     
   }
   
@@ -96,13 +98,23 @@ a img:hover{
 a img{
   width: 600px;
   height: 500px;
+  box-shadow: 10px #0554F2;
+  box-shadow: 20px 20px 10px #0554F2
 }
 aside {
   background-color: #5C8EF2;
   padding: 20px;
 }
+aside a{
+  background-color: #5C8EF2;
+  text-decoration: none;
+}
 .extra-news {
   background-color: #5C8EF2;
   padding: 20px;
 }   
+.extra-news a{
+  background-color: #5C8EF2;
+  text-decoration: none;
+}
   
