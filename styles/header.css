@@ -1,0 +1,39 @@
+header {
+    display: grid;
+    background-color: #313640;
+    padding: 20px;
+    border-radius: 10px;
+    grid-template-columns: 100px 2fr;
+    text-align: center;
+    height: 15vh;
+  }
+  
+  header nav {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #313640;
+    margin-top: 2px;
+    margin-left: 200px;
+  }
+  header img{
+    width: 300px;
+    height: 200px;
+    
+   }
+   ul{
+    margin-top: 32px;
+   }
