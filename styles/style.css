@@ -47,21 +47,10 @@ footer {
   text-align: center;
 }
 
-nav:hover {
-  font-size: 105%;
-}
-
 .news a:hover {
-  font-size: 110%;
+  font-size: 105%;
   color: #313640;
-}
-
-.img-container {
-  max-width: 1800px;
-  text-align: center;
-  display: inline-block;
-  margin-bottom: 70px;
-
+ 
 }
 
 a img:hover {
@@ -98,3 +87,66 @@ aside a {
   background-color: #5C8EF2;
   text-decoration: none;
 }
+.news article img{
+  width: 200px;
+  height: 100px;
+  margin-top: 30px;
+}
+.teste1 {
+  display: flex;
+  text-align: justify;
+  font-size: 20px;
+ 
+}
+.teste1 p{
+  margin-left: 10px;
+  
+}
+
+.teste2 {
+  display: flex;
+  text-align: justify;
+  font-size: 20px;
+ 
+}
+.teste2 p{
+  margin-left: 10px;
+ 
+}
+
+.teste3 {
+  display: flex;
+  text-align: justify;
+  font-size: 20px;
+ 
+}
+.teste3 p{
+  margin-left: 10px;
+ 
+}
+
+.teste4 {
+  display: flex;
+  text-align: justify;
+  font-size: 20px;
+ 
+}
+.teste4 p{
+  margin-left: 10px;
+
+}
+.teste1 a{
+  text-decoration: none;
+}
+.teste2 a{
+  text-decoration: none;
+}
+.teste3 a{
+  text-decoration: none;
+}
+.teste4 a{
+  text-decoration: none;
+}
+
+
+
