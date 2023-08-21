@@ -1,0 +1,29 @@
+.slideshow-container h2{
+    font-size: 40px;
+}
+.slideshow-container h1{
+    font-size: 20px;
+   
+}
+.slideshow-container iframe{
+   margin-left: 250px;
+}
+.video{
+    margin-left: 250px;
+    font-size: small;
+}
+.slideshow-container img{
+    margin-left: 250px;
+}
+.ney{
+    margin-left: 250px;
+    font-size: small;
+}
+.text{
+    text-align: center;
+    
+}
+.saad{
+    margin-left: 250px;
+    font-size: small;
+}
